@@ -20,7 +20,7 @@ jobs:
       - run: docker push nourkaroui/auth
       - uses: digitalocean/action-doctl@v2
         with:
-          token: ${{ env.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
       - run: doctl kubernetes cluster kubeconfig save ticketing
       - run: kubectl rollout restart deployment auth-depl
     
