@@ -1083,6 +1083,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/infra/k8s-prod/ingress-srv.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/infra/k8s/auth-depl.yaml">
           <value>
             <set />
